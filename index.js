@@ -1,7 +1,7 @@
-import * as THREE from 'three';
-import * as dat from 'dat.gui';
-import gsap from 'gsap';
-import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
+import * as THREE from '../node_modules/three';
+import * as dat from '../node_modules/dat.gui';
+import gsap from '../node_modules/gsap';
+import { OrbitControls } from '../node_modules/three/examples/jsm/controls/OrbitControls';
 
 // DAT GUI Helper
 const gui = new dat.GUI();
