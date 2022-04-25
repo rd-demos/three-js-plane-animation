@@ -1,7 +1,7 @@
-import * as THREE from '../node_modules/three';
-import * as dat from '../node_modules/dat.gui';
-import gsap from '../node_modules/gsap';
-import { OrbitControls } from '../node_modules/three/examples/jsm/controls/OrbitControls';
+import gsap from "https://cdn.skypack.dev/gsap"
+import * as THREE from 'https://unpkg.com/three@0.126.1/build/three.module.js'
+import { OrbitControls } from 'https://unpkg.com/three@0.126.1/examples/jsm/controls/OrbitControls.js'
+import * as dat from "https://cdn.skypack.dev/dat.gui"
 
 // DAT GUI Helper
 const gui = new dat.GUI();
